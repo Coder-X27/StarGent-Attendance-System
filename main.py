@@ -39,4 +39,4 @@ if __name__=="__main__":
         else:
             print("You are not a part of the Community Plz Register Your self or Contact The head")
     elif(choice==2 or choice==3):
-        print('Welcome To the Stargent Robotics Community Here Our Motto is to Make Bots and TO make the Gyanni 3.0')
+        print('Welcome To the Stargent Robotics Community Here Our Motto is to Make Bots ')
