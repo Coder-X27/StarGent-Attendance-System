@@ -26,7 +26,7 @@ if __name__=="__main__":
     print("Welcome to the StarGent Robotics Biomatrix Attendance System \n")
     choice=int(input("What do you want\n1) Mark Present\n2) Register Yourself as a Community Member\n3) Forgot Code\n4) Show total Presents\n"))
     if(choice==1 or choice==4):
-        # print("Plz Place your Thumb on the scanner to know your identification\n")
+        print("Plz Place your Thumb on the scanner to know your identification\n")
         isValid=validation()
         if isValid is True:
             user=identify()
